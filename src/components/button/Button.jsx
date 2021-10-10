@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-const ButtonCircular = ({ title, borderRadius, backgroundColor, color, height, width, marginTop = 0, float, marginRight, fontSize, onClick}) =>(
+const ButtonCircular = ({ title,marginLeft, borderRadius,position, backgroundColor, color, height, width, marginTop = 0, float, marginRight, fontSize, onClick}) =>(
   <>
     <button
       style={{
@@ -14,7 +14,9 @@ const ButtonCircular = ({ title, borderRadius, backgroundColor, color, height, w
         border: 'none',
         fontSize: fontSize,
         float : float,
-        marginRight : marginRight
+        marginRight : marginRight,
+        position :position,
+        marginLeft : marginLeft
       }}
       onClick={onClick}
     >

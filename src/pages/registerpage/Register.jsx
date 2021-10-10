@@ -1,4 +1,5 @@
 import React from 'react';
+import DropdownList from '../../components/dropdown/DropdownList'
 import BackgroundImage from '../../components/backgroundImage/BackgroundImgReg'
 import Card from '../../components/cardAuth/CardRegister'
 import Text from '../../components/text/Text'
@@ -20,8 +21,16 @@ const Register = () => {
                 <Input type="text" placeholder="Name*" />
                 <Input type="text" placeholder="Organization Name" />
                 <Input type="text" placeholder="Email Address*" />
+                <ButtonCircular title={"Submit"} color={"#6EA642"} fontSize={16} backgroundColor={"Transparent"} 
+                position={"absolute"}
+    marginLeft={-59} 
+    marginTop={45} />
                 <Input type="text" placeholder="OTP" />
                 <Input type="text" placeholder="Mobile Number*" />
+                <ButtonCircular title={"Submit"} color={"#6EA642"} fontSize={16} backgroundColor={"Transparent"} 
+                position={"absolute"}
+    marginLeft={-59} 
+    marginTop={45} />
                 <Input type="text" placeholder="OTP" />
                 <Input type="text" placeholder="Enter Password" />
                 <Input type="text" placeholder="Confirm Password" />
